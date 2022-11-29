@@ -1,0 +1,246 @@
+.grandFatherContainer {
+  width: 100%;
+  background: rgba(250, 250, 250, 1);
+}
+
+.MainContainer {
+  position: relative;
+
+  width: 375px;
+  margin: auto;
+  border-radius: 0px;
+  background: rgba(250, 250, 250, 1);
+}
+
+.backGroundLight {
+  height: 200px;
+  width: 375px;
+}
+
+.containerHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20px;
+  width: 325px;
+  margin-top: -150px;
+  margin-left: 25px;
+  gap: 202px;
+}
+
+.moon:hover {
+  cursor: pointer;
+}
+.sun:hover {
+  cursor: pointer;
+}
+.todoListContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 48px;
+  width: 327px;
+  margin-left: 24px;
+  margin-top: 40px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+}
+
+.todoListContainerBlack {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 48px;
+  width: 327px;
+  margin-left: 24px;
+  margin-top: 40px;
+  border-radius: 5px;
+  background: rgba(37, 39, 61, 1);
+
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+}
+
+.checkAndInputBox {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 236px;
+  margin-left: 20px;
+  gap: 12px;
+}
+
+.checkbox:after {
+  height: 20px;
+  width: 20px;
+  opacity: 10;
+  border-radius: 400px;
+  background-color: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
+}
+
+.todoInput {
+  position: relative;
+  height: 15px;
+
+  width: 180px;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: -0.1666666716337204px;
+  text-align: left;
+  border-style: none;
+}
+
+.todoInputBlack {
+  position: relative;
+  height: 15px;
+
+  width: 180px;
+  font-family: "Josefin Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: -0.1666666716337204px;
+  text-align: left;
+  border-style: none;
+  background: rgba(37, 39, 61, 1);
+  color: rgb(246, 247, 255);
+}
+
+.itemleftclearcontainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 48px;
+  width: 327px;
+  margin-left: 24px;
+  margin-top: 40px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+}
+
+.itemleftclearcontainerBlack {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 48px;
+  width: 327px;
+  margin-left: 24px;
+  margin-top: 40px;
+  border-radius: 5px;
+  background: rgba(37, 39, 61, 1);
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+}
+
+.itemleftclearbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 14px;
+  width: 287px;
+  margin-left: 24px;
+  gap: 100px;
+}
+
+.itemleft {
+  height: 12px;
+  width: 90px;
+
+  font-family: "Josefin Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: -0.1666666716337204px;
+  text-align: left;
+  color: rgba(148, 149, 165, 1);
+}
+.itemleft:hover {
+  cursor: pointer;
+  color: rgba(73, 76, 107, 1);
+}
+
+.clearItem {
+  height: 12px;
+  width: 110px;
+
+  font-family: "Josefin Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: -0.1666666716337204px;
+  text-align: left;
+  color: rgba(148, 149, 165, 1);
+}
+
+.clearItem:hover {
+  cursor: pointer;
+  color: rgba(73, 76, 107, 1);
+}
+
+.footerBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 48px;
+  width: 327px;
+  margin-left: 24px;
+  margin-top: 331px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+}
+
+.footerText {
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.1944444477558136px;
+  text-align: left;
+  color: rgba(148, 149, 165, 1);
+  border-style: none;
+}
+.footerText:hover {
+  cursor: pointer;
+  color: rgba(58, 124, 253, 1);
+}
+
+.lastText {
+  height: 14px;
+  width: 327px;
+  margin-left: 24px;
+  margin-top: 40px;
+  padding-bottom: 30px;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.1944444477558136px;
+  text-align: center;
+  color: rgba(148, 149, 165, 1);
+}
+
+.lastText:hover {
+  cursor: pointer;
+  color: rgba(58, 124, 253, 1);
+}
+
+.footerBoxBlack {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 48px;
+  width: 327px;
+  margin-left: 24px;
+  margin-top: 331px;
+  border-radius: 5px;
+
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  background: rgba(37, 39, 61, 1);
+}
