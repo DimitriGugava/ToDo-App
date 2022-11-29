@@ -1,0 +1,9 @@
+/* * {
+  border: 0.5px solid red;
+} */
+
+.todoMainContainer {
+  height: 730px;
+  width: 100%;
+  border-radius: 0px;
+}
